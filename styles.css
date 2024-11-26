@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #2a2a3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #61dafb;
+}
+
+header button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: #1e1e2f;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #51b8db;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background: #32324a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+form h3 {
+    margin-top: 0;
+    color: #61dafb;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #61dafb;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #2a2a3b;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #2a2a3b;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+table th {
+    background-color: #444;
+    color: #61dafb;
+}
+
+table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions .delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.actions .delete:hover {
+    background-color: #c82333;
+}
